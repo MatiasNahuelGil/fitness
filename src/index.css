@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/*Animaciones */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100%{
+    opacity: 1;
+    scale: 1;
+  }
+
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 1s ease-out forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease-out forwards;
+}
+
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-200%); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(200%); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1;
+  }
+}
+
+
+.animation-left {
+  animation: slide-left 1s ease-out forwards; 
+}
+
+.animation-right {
+  animation: slide-right 1s ease-out forwards; 
+  
+}
+
+
+
+
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(90deg); 
+  }
+  100% {
+    transform: rotate(0deg); 
+  }
+}
+
+.animation-rotate{
+  animation: rotateAnimation 1s ease-in-out forwards;
+}
