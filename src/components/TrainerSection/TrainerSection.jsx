@@ -10,7 +10,7 @@ const TrainerSection = () => {
     <section className='flex flex-col lg:flex-row p-5 sm:p-10 md:p-25 justify-center gap-15'>
        <div className='w-full lg:w-150 flex flex-col items-center justify-evenly gap-5'>
             <h2 className='text-2xl sm:text-3xl md:text-5xl'><b>Our Trainers</b></h2>
-            <p className='text-3xl text-center'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className='text-3xl text-center'>Our trainers are dedicated to helping individuals reach their full potential. They provide expert guidance, ensuring that every participant receives the support needed to succeed. With a focus on progress and personal growth, they offer tailored exercises and feedback. Whether you're looking to improve strength, endurance, or flexibility, our trainers are committed to your success every step of the way. Their knowledge and passion for fitness make them invaluable assets to your journey.</p>
             <Button
             textButton={'LEARN MORE'}
             background={'bg-orange-400'}

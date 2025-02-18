@@ -14,7 +14,7 @@ const AmenitiesSection = () => {
     <section className='flex flex-col items-center justify-center mt-70'>
         <div className='text-center'>
             <h2 className='text-3xl sm:text-5xl'><b>Amenities</b></h2>
-            <p className='w-160 mt-10  sm:text-2xl'>Modern design and comfortable, all-inclusive luxury. With our extensive range of amenities, that includes sprawling outdoor terraces, we offer a space unlike any other in New York City. You'll love your time here.</p>
+            <p className='w-full md:w-124 mt-10  sm:text-2xl'>Modern design and comfortable, all-inclusive luxury. With our extensive range of amenities, that includes sprawling outdoor terraces, we offer a space unlike any other in New York City. You'll love your time here.</p>
         </div>
         <div className='p-15 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-7'>
            <AmenitiesCard backImage={amenities1}>
